@@ -24,15 +24,35 @@
 
 //  taking input from user 
 
-    #include <stdio.h>
+//     #include <stdio.h>
+
+// int main() {
+//     char name[50];
+
+//     printf("Enter your name: ");
+//     scanf("%s", name);
+
+//     printf("this is your name %s\n", name);
+
+//     return 0;
+// }
+//   CODE OF NUMBER OF TWO SUM 
+
+   #include <stdio.h>
 
 int main() {
-    char name[50];
+ int num_1, num_2;
+    printf("ENTER YOUR FIRST NO.");
+    printf("%d:" , num_1);
+    scanf("%d", &num_1);
 
-    printf("Enter your name: ");
-    scanf("%s", name);
+    printf("ENTER YOUR SECOND NO.");
+    printf("%d:" , num_2);
+    scanf("%d", &num_2);
 
-    printf("this is your name %s\n", name);
+    int sum = num_1 + num_2;
+    printf("sum is :%d" , sum);
+
 
     return 0;
 }

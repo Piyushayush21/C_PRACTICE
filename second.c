@@ -70,7 +70,7 @@ int main(){
     scanf("%d" , &number_2);
 
     int sum = number_1 + number_2;
-    printf("sum is : %d" , sum);
+    printf("sum is : %d" , number_1 + number_2 );
 
     return 0;
 }

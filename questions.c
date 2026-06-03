@@ -19,7 +19,7 @@
 // write a program to calcuate area of a circle 
 //  3.14159 pi ki value 
 
-#include <stdio.h>
+// #include <stdio.h>
 
 int main() {
     float radius, area;
@@ -33,3 +33,4 @@ int main() {
 
     return 0;
 }
+

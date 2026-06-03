@@ -38,21 +38,39 @@
 // }
 //   CODE OF NUMBER OF TWO SUM 
 
-   #include <stdio.h>
+//    #include <stdio.h>
 
-int main() {
- int num_1, num_2;
-    printf("ENTER YOUR FIRST NO.");
-    printf("%d:" , num_1);
-    scanf("%d", &num_1);
+// int main() {
+//  int num_1, num_2;
+//     printf("ENTER YOUR FIRST NO.");
+//     printf("%d:" , num_1);
+//     scanf("%d", &num_1);
 
-    printf("ENTER YOUR SECOND NO.");
-    printf("%d:" , num_2);
-    scanf("%d", &num_2);
+//     printf("ENTER YOUR SECOND NO.");
+//     printf("%d:" , num_2);
+//     scanf("%d", &num_2);
 
-    int sum = num_1 + num_2;
-    printf("sum is :%d" , sum);
+//     int sum = num_1 + num_2;
+//     printf("sum is :%d" , sum);
 
+
+//     return 0;
+// }
+
+
+# include <stdio.h>
+int main(){
+    int number_1 , number_2;
+    printf("ENTER YOUR NO. 1");
+    printf("%d:" , number_1);
+    scanf("%d" , &number_1);
+
+    printf("ENTER YOUR NO.2");
+    printf("%d" , number_2);
+    scanf("%d" , &number_2);
+
+    int sum = number_1 + number_2;
+    printf("sum is : %d" , sum);
 
     return 0;
 }

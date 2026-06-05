@@ -14,7 +14,23 @@
 int main() {
     int X;
     printf("ENTER A NUMBER");
-    scanf("%d", & X);
-    printf("%d" , X % 2 == 0);
+    scanf("%d", &X);
+    printf("%s" , (X % 2 == 0 ) ? "EVEN" : "ODD"  );
+     
     return 0;
 }
+
+
+
+// #include <stdio.h>
+
+// int main() {
+//     int X;
+
+//     printf("ENTER A NUMBER: ");
+//     scanf("%d", &X);
+
+//     printf("%s", (X % 2 == 0) ? "EVEN" : "ODD");
+
+//     return 0;
+// }

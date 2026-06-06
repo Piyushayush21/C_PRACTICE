@@ -85,27 +85,31 @@
 //     return 0;
 // }
 
-# include <stdio.h>
-int main(){
-    char day;
-    printf("ENTER DAY (by alpha):");
-    scanf("%c" , &day);
+// # include <stdio.h>
+// int main(){
+//     char day;
+//     printf("ENTER DAY (by alpha):");
+//     scanf("%c" , &day);
 
-    switch(day) {
-        case 'm' : printf("MONDAY");
-        break;
-        case 't' : printf("TUESDAY");
-        break;
-        case 'w' : printf("WEDNESDAY");
-        break;
-        case 'h' : printf("THURSDAY");
-        break;
-        case 'f': printf("FRIDAY");
-        break;
-        case 's':  printf("SATURDAY");
-        break;
-        case 'S' : printf("SUNDAY");
-        break;
-    }
-    return 0;
-}
+//     switch(day) {
+//         case 'm' : printf("MONDAY");
+//         break;
+//         case 't' : printf("TUESDAY");
+//         break;
+//         case 'w' : printf("WEDNESDAY");
+//         break;
+//         case 'h' : printf("THURSDAY");
+//         break;
+//         case 'f': printf("FRIDAY");
+//         break;
+//         case 's':  printf("SATURDAY");
+//         break;
+//         case 'S' : printf("SUNDAY");
+//         break;
+//     }
+//     return 0;
+// }
+
+//  write a program to check if a student passed of failed 
+// marks > 30 is pass
+// marks <= 30 is fail 

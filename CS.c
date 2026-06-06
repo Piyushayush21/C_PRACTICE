@@ -49,11 +49,38 @@
 
 //  [TERNARY OPERATOR]
 
-# include <stdio.h>
-int main() {
-    int age;
-    printf("ENTER AGE:");
-    scanf("%d" , &age);
-    age >18 ? printf("adult \n") : printf("teenn,child \n");
+// # include <stdio.h>
+// int main() {
+//     int age;
+//     printf("ENTER AGE:");
+//     scanf("%d" , &age);
+//     age >18 ? printf("adult \n") : printf("teenn,child \n");
     
+// } 
+
+// [SWITCH]
+
+# include <stdio.h>
+int main(){
+    int day;
+    printf("ENTER DAY (1-7):");
+    scanf("%d" , &day);
+
+    switch(day) {
+        case 1: printf("MONDAY");
+        break;
+        case 2: printf("TUESDAY");
+        break;
+        case 3: printf("WEDNESDAY");
+        break;
+        case 4: printf("THURSDAY");
+        break;
+        case 5: printf("FRIDAY");
+        break;
+        case 6: printf("SATURDAY");
+        break;
+        case 7: printf("SUNDAY");
+        break;
+    }
+    return 0;
 }

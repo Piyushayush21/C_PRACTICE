@@ -60,26 +60,51 @@
 
 // [SWITCH]
 
+// # include <stdio.h>
+// int main(){
+//     int day;
+//     printf("ENTER DAY (1-7):");
+//     scanf("%d" , &day);
+
+//     switch(day) {
+//         case 1: printf("MONDAY");
+//         break;
+//         case 2: printf("TUESDAY");
+//         break;
+//         case 3: printf("WEDNESDAY");
+//         break;
+//         case 4: printf("THURSDAY");
+//         break;
+//         case 5: printf("FRIDAY");
+//         break;
+//         case 6: printf("SATURDAY");
+//         break;
+//         case 7: printf("SUNDAY");
+//         break;
+//     }
+//     return 0;
+// }
+
 # include <stdio.h>
 int main(){
-    int day;
-    printf("ENTER DAY (1-7):");
-    scanf("%d" , &day);
+    char day;
+    printf("ENTER DAY (by alpha):");
+    scanf("%c" , &day);
 
     switch(day) {
-        case 1: printf("MONDAY");
+        case 'm' : printf("MONDAY");
         break;
-        case 2: printf("TUESDAY");
+        case 't' : printf("TUESDAY");
         break;
-        case 3: printf("WEDNESDAY");
+        case 'w' : printf("WEDNESDAY");
         break;
-        case 4: printf("THURSDAY");
+        case 'h' : printf("THURSDAY");
         break;
-        case 5: printf("FRIDAY");
+        case 'f': printf("FRIDAY");
         break;
-        case 6: printf("SATURDAY");
+        case 's':  printf("SATURDAY");
         break;
-        case 7: printf("SUNDAY");
+        case 'S' : printf("SUNDAY");
         break;
     }
     return 0;

@@ -56,20 +56,36 @@
 // }
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int sum(int n) {
-    if (n == 0)
-        return 0;
-    else
-        return n + sum(n - 1);
-}
+// int sum(int n) {
+//     if (n == 0)
+//         return 0;
+//     else
+//         return n + sum(n - 1);
+// }
 
+// int main() {
+//     int n;
+//     printf("enter your no.:");
+//     scanf("%d" , &n);
+
+//     printf("sum of numbers from 0 to %d = %d",n,sum(n));
+//     return 0;
+// }
+
+#include<stdio.h>
 int main() {
-    int n;
-    printf("enter your no.:");
-    scanf("%d" , &n);
-
-    printf("sum of numbers from 0 to %d = %d",n,sum(n));
-    return 0;
+ int n, a=0, b=1, temp, count=1;
+ printf("Enter number of terms: ");
+ scanf("%d", &n);
+ printf("Fibonacci Series: ");
+ while(count <= n) {
+ printf("%d ", a);
+ temp = a + b;
+ a = b;
+ b = temp;
+ count++;
+ }
+ return 0;
 }
